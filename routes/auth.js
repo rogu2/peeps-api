@@ -8,4 +8,11 @@ router.get('/', (req, res) => {
     res.send('Get Logged In User')
 })
 
+// @route   POST    api/auth
+// @desc    Auth user and get token
+// @access  Public
+router.post('/', (req, res) => {
+    res.send('Login user')
+})
+
 module.exports = router
