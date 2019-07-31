@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://test:test@peeps-p2xxu.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}
