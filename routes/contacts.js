@@ -53,8 +53,34 @@ router.post('/', [auth, [
 // @route   PATCH api/contacts/:id
 // @desc    Get all contacts owned by user
 // @access  Private
-router.patch('/:id', (req, res) => {
-    res.send('Update Contact')
+router.patch('/:id', auth, async (req, res) => {
+    const { name, email, phone, type, birthday } = req.body
+
+    // Build contact obj
+    const contactFields = {}
+    if (name) contactFields.name = name
+    if (phone) contactFields.phone = phone
+    if (email) contactFields.email = email
+    if (type) contactFields.type = type
+    if (birthday) contactFields.birthday = birthday
+
+    try {
+        let contact = await Contact.findById(req.params.id)
+        if (!contact) return res.status(404).json({ msg: 'Contact Not Found' })
+
+        if (contact.user.toString() !== req.user.id) {
+            return res.status(404).json({ msg: 'Not Authorized' })
+        }
+
+        contact = await Contact.findByIdAndUpdate(req.params.id,
+            { $set: contactFields },
+            { new: true })
+
+        res.json(contact)
+    } catch (err) {
+        console.error(err.message)
+        res.status(500).send('Server Error')
+    }
 })
 
 // @route   DELETE api/contacts/:id
