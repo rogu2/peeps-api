@@ -69,7 +69,7 @@ router.patch('/:id', auth, async (req, res) => {
         if (!contact) return res.status(404).json({ msg: 'Contact Not Found' })
 
         if (contact.user.toString() !== req.user.id) {
-            return res.status(404).json({ msg: 'Not Authorized' })
+            return res.status(401).json({ msg: 'Not Authorized' })
         }
 
         contact = await Contact.findByIdAndUpdate(req.params.id,
