@@ -36,7 +36,7 @@ const Register = () => {
             <form onSubmit={onSubmit}> 
                 <div className='form-group'>
                     <label htmlFor='name'>Name</label>
-                    <input type='text' name='name' value={name} onChange={onChange} />
+                    <input type='text' name='name' value={name} onChange={onChange} required/>
                 </div>
                 <div className='form-group'>
                     <label htmlFor='email'>Email Address</label>
