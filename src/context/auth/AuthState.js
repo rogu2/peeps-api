@@ -9,8 +9,8 @@ import {
     USER_LOADED,
     AUTH_ERROR,
     LOGIN_SUCCESS,
-    LOGIN_FAIL,
     LOGOUT,
+    LOGIN_FAIL,
     CLEAR_ERRORS
 } from '../types'
 
@@ -88,7 +88,7 @@ const AuthState = props => {
 
     // Logout
     const logout = () => {
-        console.log('logout')
+        dispatch({ type: LOGOUT })
     }
 
     // Clear Errors
