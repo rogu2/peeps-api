@@ -4,8 +4,6 @@
 
 Welcome to Peeps, a React JS single page application! Use this app to store and search your personal and professional contacts.
 
-This project is born out of the Software Engineering Immersive course at General Assembly Boston (formerly the WDI, Web Development Immersive) and is the client side of our first full-stack team project.
-
 + Client site: forthcoming
 + Client repo: https://github.com/rogu2/peeps-client
 + Server site: forthcoming
@@ -37,18 +35,17 @@ Interested in playing with the code or contributing? Read on.
 
 #### Prerequisites
 + This front-end is optimized for the Google Chrome browser, but may work elsewhere.
-+ Any text editor will do. The 2JAR team used Atom, which makes development easier.
++ This app was developed with Visual Studio, however, any currently supported text editor will work just fine.
 
 #### Installing
 + Fork and clone the respository locally
 + Navigate to the respository locally and run npm install
-+ To test locally, run grunt serve
-+ You will also need to set up the Photo Jar Server. See further installation instructions on its repo: https://github.com/2jar/photo-jar-api
++ You will also need to set up the Peeps Server. See further installation instructions on its repo: https://github.com/rogu2/peeps-api
 
 #### Front-end Deployment
 + Merge down to your master branch
 + Push to your remote
-+ Then run grunt deploy
++ Then run npm run start
 
 ## User Stories
 As a user I would like to...
