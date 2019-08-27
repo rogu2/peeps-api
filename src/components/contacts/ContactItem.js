@@ -38,7 +38,7 @@ const ContactItem = ({ contact }) => {
                 </li>) }
                 { birthday && (
                 <li>
-                    <i className="fas fa-calendar"></i> {birthday}
+                    <i className="fas fa-calendar"></i> {birthday.substring(0, 10)}
                 </li>) }
             </ul>
             <p>
