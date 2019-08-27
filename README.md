@@ -8,7 +8,7 @@ This project is born out of the Software Engineering Immersive course at General
 
 + Client site: forthcoming
 + Client repo: https://github.com/rogu2/peeps-client
-+ Server site: forthcoming
++ Server site: https://peeps-server.herokuapp.com/
 + Server repo: https://github.com/rogu2/peeps-api
 
 ## Getting Started
