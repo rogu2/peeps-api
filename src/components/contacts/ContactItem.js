@@ -7,10 +7,10 @@ const ContactItem = ({ contact }) => {
     const contactContext = useContext(ContactContext)
     const { deleteContact, setCurrent, clearCurrent } = contactContext
 
-    const { id, name, email, phone, type, birthday } = contact
+    const { _id, name, email, phone, type, birthday } = contact
 
     const onDelete = () => {
-        deleteContact(id)   
+        deleteContact(_id)   
         clearCurrent()
     }
 
@@ -38,7 +38,7 @@ const ContactItem = ({ contact }) => {
                 </li>) }
                 { birthday && (
                 <li>
-                    <i className="fas fa-calendar"></i> {birthday}
+                    <i className="fas fa-calendar"></i> {birthday.substring(0, 10)}
                 </li>) }
             </ul>
             <p>
