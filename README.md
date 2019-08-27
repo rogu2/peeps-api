@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Peeps API
 
 ## Introduction
@@ -10,17 +9,6 @@ This project is born out of the Software Engineering Immersive course at General
 + Client site: forthcoming
 + Client repo: https://github.com/rogu2/peeps-client
 + Server site: https://peeps-server.herokuapp.com/
-=======
-# Peeps 
-
-## Introduction
-
-Welcome to Peeps, a React JS single page application! Use this app to store and search your personal and professional contacts.
-
-+ Client site: forthcoming
-+ Client repo: https://github.com/rogu2/peeps-client
-+ Server site: forthcoming
->>>>>>> peeps-client/master
 + Server repo: https://github.com/rogu2/peeps-api
 
 ## Getting Started
