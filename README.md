@@ -1,14 +1,11 @@
 # Peeps API
 
 ## Introduction
-
-Welcome to Peeps API, a Express JS server designed to support the Peeps React JS client. Use this app to store and search your personal and professional contacts.
-
-This project is born out of the Software Engineering Immersive course at General Assembly Boston (formerly the WDI, Web Development Immersive) and is the client side of our first full-stack team project.
+Welcome to Peeps, a React JS single page application! Use this app to store and search your personal and professional contacts.
 
 + Client site: forthcoming
 + Client repo: https://github.com/rogu2/peeps-client
-+ Server site: https://peeps-server.herokuapp.com/
++ Server site: forthcoming
 + Server repo: https://github.com/rogu2/peeps-api
 
 ## Getting Started
@@ -35,7 +32,34 @@ Server Side
 ## Getting involved
 Interested in playing with the code or contributing? Read on.
 
-<<<<<<< HEAD
+## Prerequisites
++ This front-end is optimized for the Google Chrome browser, but may work elsewhere.
++ This app was developed with Visual Studio, however, any currently supported text editor will work just fine.
+
+## Installing Client
++ Fork and clone the respository locally
++ Navigate to the respository locally and run npm install
++ You will also need to set up the Peeps Server. See further installation instructions on its repo: https://github.com/rogu2/peeps-api
+
+#### Front-end Deployment
++ Merge down to your master branch
++ Push to your remote
++ Then run npm run start
+
+## User Stories
+As a user I would like to...
++ Create an account and login.
++ Add contacts name, email, phone number and birthday to my contact list.
++ Ssearch for contacts within my list.
++ Delete contacts.
++ Modify contact information.
++ Logout
+
+## Server Side
+
+The Peeps API is a Express JS server designed to support the Peeps React JS client. Use this app to store and search your personal and professional contacts.
+
+
 #### Installing
 + Fork and clone the respository locally
 + Navigate to the respository locally and run npm install
@@ -60,32 +84,6 @@ Interested in playing with the code or contributing? Read on.
 
 ## Roadmap
 When time permits, future versions may also include...
-=======
-#### Prerequisites
-+ This front-end is optimized for the Google Chrome browser, but may work elsewhere.
-+ This app was developed with Visual Studio, however, any currently supported text editor will work just fine.
-
-#### Installing
-+ Fork and clone the respository locally
-+ Navigate to the respository locally and run npm install
-+ You will also need to set up the Peeps Server. See further installation instructions on its repo: https://github.com/rogu2/peeps-api
-
-#### Front-end Deployment
-+ Merge down to your master branch
-+ Push to your remote
-+ Then run npm run start
-
-## User Stories
-As a user I would like to...
-+ Create an account and login.
-+ Add contacts name, email, phone number and birthday to my contact list.
-+ Ssearch for contacts within my list.
-+ Delete contacts.
-+ Modify contact information.
-+ Logout
-
-## Roadmap
->>>>>>> peeps-client/master
 + Integrate with AWS S3 Bucket to upload contact photos.
 + Integrate with Google Maps API to add contact location.
 + Allow for contact messaging through app.
@@ -95,4 +93,4 @@ All content is licensed under a CC­BY­NC­SA 4.0 license.
 All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact rguempel@gmail.com.
 
 ## Acknowledgments
-Special thanks to Brad Traversey for his exceptional React course.
+Special thanks to Brad Traversy for his exceptional React program.
