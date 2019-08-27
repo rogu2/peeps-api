@@ -1,7 +1,7 @@
-# Peeps API
+# Peeps
 
 ## Introduction
-Welcome to Peeps, a React JS single page application! Use this app to store and search your personal and professional contacts.
+Welcome to Peeps, a React JS and Express JS full stack application! Use this app to store and search your personal and professional contacts.
 
 + Client site: forthcoming
 + Client repo: https://github.com/rogu2/peeps-client
