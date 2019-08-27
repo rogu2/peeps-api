@@ -18,6 +18,7 @@
     "bcryptjs": "^2.4.3",
     "config": "^3.2.2",
     "cors": "^2.8.5",
+    "eslint-utils": "^1.4.2",
     "express": "^4.17.1",
     "express-validator": "^6.1.1",
     "jsonwebtoken": "^8.5.1",
