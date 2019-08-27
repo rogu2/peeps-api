@@ -1,30 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "peeps-api",
-  "version": "1.0.0",
-  "description": "contact manager server",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "config": "^3.2.2",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "express-validator": "^6.1.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.6.7"
-  },
-  "devDependencies": {
-    "concurrently": "^4.1.1",
-    "nodemon": "^1.19.1"
-  }
-=======
   "name": "peeps-client",
   "version": "0.1.0",
   "private": true,
@@ -59,5 +33,4 @@
     ]
   },
   "proxy": "http://localhost:2000"
->>>>>>> peeps-client/master
 }
