@@ -8,7 +8,7 @@ Welcome to Peeps, a React JS and Express JS full stack single page application! 
 + Github repo: https://github.com/rogu2/peeps-api
 
 ## Getting Started
-Simply go to https://rogu2.github.io/peeps-client/, sign up, sign in, and start adding your contacts in the fields provided.
+Simply go to https://peeps-server.herokuapp.com/, sign up, sign in, and start adding your contacts in the fields provided.
 
 ## Technologies used
 Client Side
@@ -90,6 +90,3 @@ When time permits, future versions may also include...
 ## License
 All content is licensed under a CC­BY­NC­SA 4.0 license.
 All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact rguempel@gmail.com.
-
-## Acknowledgments
-Special thanks to Brad Traversy for his exceptional React program.
